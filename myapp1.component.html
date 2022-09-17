@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <h1>🗒️AnyCom</h1>
+    </nav>
+    <div class="forms" action="#">
+        <form>
+            <label>Name</label><input type="text" value="{{name}}" required><br>
+            <label>{{gender}}</label><br>
+            Male<input type="radio">
+            Female<input type="radio">
+            <div class="left">
+                <h3>{{experience}}</h3>
+                <input type="checkbox">Worse <br>
+                <input type="checkbox">Bad <br>
+                <input type="checkbox">Good <br>
+                <input type="checkbox">Very Good <br>
+                <input type="checkbox">Excelent <br><br><br>
+    
+            </div>
+            
+    
+            <label>{{feedback}}</label><br>
+            <textarea cols="80" rows="10"></textarea><br>
+    
+            <button type="submit" (click)="Submitted()">{{buttontxt}}</button>
+    
+    
+    
+    
+    
+        </form>
+
+    </div>
+
+</body>
+
+</html>
